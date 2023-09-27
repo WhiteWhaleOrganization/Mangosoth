@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint HastrnSlaty.podspec' to ensure this is a
+#  Be sure to run `pod spec lint Mangosoth.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see https://guides.cocoapods.org/syntax/podspec.html
@@ -15,9 +15,9 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "HastrnSlaty"
+  spec.name         = "Mangosoth"
   spec.version      = "0.0.1"
-  spec.summary      = "A short description of HastrnSlaty."
+  spec.summary      = "A short description of Mangosoth."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,10 +25,10 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-  HastrnSlaty Module
+  Mangosoth Module
                    DESC
 
-  spec.homepage     = "https://github.com/WhiteWhaleOrganization/HastrnSlaty.git"
+  spec.homepage     = "https://github.com/WhiteWhaleOrganization/Mangosoth.git"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -80,7 +80,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/WhiteWhaleOrganization/HastrnSlaty.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/WhiteWhaleOrganization/Mangosoth.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -137,8 +137,9 @@ Pod::Spec.new do |spec|
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
   
-    spec.dependency 'SRPeriod'
-    spec.dependency "WWViewCategory"
+    spec.dependency 'MJExtension'
+    spec.dependency "GoogleSignIn"
+    spec.dependency "FBSDKLoginKit"
     spec.dependency "NertSoft"
     spec.dependency "BasqVisually"
 
